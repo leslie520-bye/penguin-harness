@@ -1,0 +1,77 @@
+{
+  "scenario": "financial-control-train",
+  "mode": "skill",
+  "tag": "h1",
+  "model": "deepseek-chat",
+  "turns": 110,
+  "usage": {
+    "in": 9662421,
+    "out": 25547,
+    "cacheHit": 9554688
+  },
+  "usd": 0.726,
+  "stop": "max_turns",
+  "scores": {
+    "train_001": {
+      "http": 200,
+      "score": 1,
+      "keys": [
+        "correct",
+        "notice",
+        "ok",
+        "scope",
+        "score",
+        "task_id"
+      ]
+    },
+    "train_002": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    },
+    "train_003": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    },
+    "train_004": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    },
+    "train_005": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    }
+  },
+  "skillFiles": [
+    "judgelib.py",
+    "SKILL.md"
+  ],
+  "at": "2026-11-21T06:11:12.812Z"
+}

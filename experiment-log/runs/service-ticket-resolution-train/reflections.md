@@ -1,0 +1,6 @@
+- Recognize that full marks across all tasks signals the approach is sound; preserve the same verification discipline rather than changing tactics.
+- Continue validating each deliverable against the stated requirements before declaring completion, since that diligence likely drove the perfect score.
+- Keep decomposing multi-part business tasks into explicit sub-checks, then confirm each sub-check against the source data and stated constraints.
+- Maintain consistency in formatting and terminology across deliverables, as cross-task coherence likely contributed to the clean sweep.
+- Retain the habit of double-checking numeric and categorical outputs against their inputs, guarding against silent errors that automated scoring may catch.
+- Since no failures surfaced, avoid over-engineering; carry forward the current level of rigor and spend effort only where requirements are ambiguous.

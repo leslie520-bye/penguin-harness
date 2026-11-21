@@ -1,0 +1,46 @@
+{
+  "scenario": "service-ticket-resolution-train",
+  "mode": "reflection",
+  "tag": "t2",
+  "model": "deepseek-chat",
+  "turns": 28,
+  "usage": {
+    "in": 1028144,
+    "out": 11594,
+    "cacheHit": 974080
+  },
+  "usd": 0.0955,
+  "stop": "completed",
+  "scores": {
+    "train_001": {
+      "http": 200,
+      "score": 0.8125,
+      "ok": true
+    },
+    "train_002": {
+      "http": 200,
+      "score": 1,
+      "ok": true
+    },
+    "train_003": {
+      "http": 200,
+      "score": 0.588235,
+      "ok": true
+    },
+    "train_004": {
+      "http": 200,
+      "score": 0.555556,
+      "ok": true
+    },
+    "train_005": {
+      "http": 200,
+      "score": 1,
+      "ok": true
+    }
+  },
+  "skillFiles": [
+    "SKILL.md"
+  ],
+  "at": "2026-11-21T06:38:40.832Z",
+  "mean": 0.7913
+}

@@ -1,0 +1,76 @@
+{
+  "scenario": "financial-control-train",
+  "mode": "reflection",
+  "tag": "t2",
+  "model": "deepseek-chat",
+  "turns": 53,
+  "usage": {
+    "in": 2993453,
+    "out": 17225,
+    "cacheHit": 2917120
+  },
+  "usd": 0.2438,
+  "stop": "completed",
+  "scores": {
+    "train_001": {
+      "http": 200,
+      "score": 0.625,
+      "keys": [
+        "correct",
+        "notice",
+        "ok",
+        "scope",
+        "score",
+        "task_id"
+      ]
+    },
+    "train_002": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    },
+    "train_003": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    },
+    "train_004": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    },
+    "train_005": {
+      "http": 500,
+      "score": null,
+      "keys": [
+        "error",
+        "message",
+        "notice",
+        "ok",
+        "scope"
+      ]
+    }
+  },
+  "skillFiles": [
+    "SKILL.md"
+  ],
+  "at": "2026-11-21T06:08:22.813Z"
+}

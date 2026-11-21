@@ -1,0 +1,65 @@
+{
+  "scenario": "coverage-review-train",
+  "mode": "reflection",
+  "tag": "t2",
+  "model": "deepseek-chat",
+  "turns": 37,
+  "usage": {
+    "in": 1558431,
+    "out": 20347,
+    "cacheHit": 1513600
+  },
+  "usd": 0.1404,
+  "stop": "completed",
+  "scores": {
+    "train_001": {
+      "http": 200,
+      "score": 1,
+      "keys": [
+        "correct",
+        "notice",
+        "score"
+      ]
+    },
+    "train_002": {
+      "http": 200,
+      "score": 0.727273,
+      "keys": [
+        "correct",
+        "notice",
+        "score"
+      ]
+    },
+    "train_003": {
+      "http": 200,
+      "score": 1,
+      "keys": [
+        "correct",
+        "notice",
+        "score"
+      ]
+    },
+    "train_004": {
+      "http": 200,
+      "score": 1,
+      "keys": [
+        "correct",
+        "notice",
+        "score"
+      ]
+    },
+    "train_005": {
+      "http": 200,
+      "score": 0.076923,
+      "keys": [
+        "correct",
+        "notice",
+        "score"
+      ]
+    }
+  },
+  "skillFiles": [
+    "SKILL.md"
+  ],
+  "at": "2026-11-21T06:39:20.060Z"
+}

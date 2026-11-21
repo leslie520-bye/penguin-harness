@@ -1,0 +1,5 @@
+- The near-miss on train_005 shows that aggregate score can hide partial errors: verify every sub-requirement of a task individually rather than trusting that a plausible overall output is complete.
+- Before finalizing, re-derive each constraint or figure from the source data and check it against the deliverable, instead of relying on the first pass that produced the numbers.
+- When a task has multiple parts or computed values, cross-check them against each other for consistency, since a single wrong component can silently cap the score.
+- Keep a short internal checklist per task type (inputs used, formula applied, units/format, all requested outputs present) and tick it off before submitting.
+- Treat any score below full marks as a signal to audit the whole approach for that task class, not just the one item that looks off.

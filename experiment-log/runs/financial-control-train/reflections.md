@@ -1,0 +1,6 @@
+- Only one task produced a usable score, so treat the apparent success as weak evidence; don't assume the approach generalizes.
+- Four tasks returned null rather than failing: prioritize diagnosing why scoring produced no signal (e.g., incomplete task handling or missing required outputs) before refining content.
+- For this task class, verify the deliverable satisfies the stated evaluation format before optimizing quality; an unscorable answer is indistinguishable from no answer.
+- When a public statement reports no failures yet most scores are null, cross-check completion status against scoring status rather than trusting the summary line.
+- Build a habit of self-checking each output against the task's explicit requirements and submission format prior to finalizing.
+- On the next attempt, spend early effort reproducing the exact expected response shape on the null tasks, then improve substance.
