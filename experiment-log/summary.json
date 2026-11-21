@@ -1,800 +1,190 @@
 {
-  "financial-control-train": {
-    "t1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": 1,
-      "usd": 0.0871,
-      "turns": 28,
-      "stop": "completed"
-    },
-    "t2": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 0.625,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": 0.625,
-      "usd": 0.2438,
-      "turns": 53,
-      "stop": "completed"
-    },
-    "h1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": 1,
-      "usd": 0.726,
-      "turns": 110,
-      "stop": "max_turns",
-      "skillFiles": [
-        "judgelib.py",
-        "SKILL.md"
-      ]
-    },
-    "g1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": 1,
-      "usd": 0.3187,
-      "turns": 62,
-      "stop": "completed",
-      "edits": 1
-    }
+ "coverage-review-train": {
+  "t1": {
+   "mean": 0.8615,
+   "usd": 0.2662,
+   "turns": 63,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": 1,
+    "train_003": 1,
+    "train_004": 1,
+    "train_005": 0.307692
+   }
   },
-  "service-ticket-resolution-train": {
-    "t1": {
-      "scores": {
-        "train_001": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": null,
-      "usd": 0.0511,
-      "turns": 18,
-      "stop": "completed"
-    },
-    "t2": {
-      "scores": {
-        "train_001": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": null,
-      "usd": 0.0955,
-      "turns": 28,
-      "stop": "completed"
-    },
-    "h1": {
-      "scores": {
-        "train_001": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_002": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_003": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_004": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        },
-        "train_005": {
-          "http": 500,
-          "score": null,
-          "keys": [
-            "error",
-            "message",
-            "notice",
-            "ok",
-            "scope"
-          ]
-        }
-      },
-      "mean": null,
-      "usd": 0.0936,
-      "turns": 35,
-      "stop": "completed",
-      "skillFiles": [
-        "SKILL.md"
-      ]
-    },
-    "g1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 0.75,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_002": {
-          "http": 200,
-          "score": 0.8,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_003": {
-          "http": 200,
-          "score": 0.588235,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_004": {
-          "http": 200,
-          "score": 0.888889,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        },
-        "train_005": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "ok",
-            "scope",
-            "score",
-            "task_id"
-          ]
-        }
-      },
-      "mean": 0.8054,
-      "usd": 0.6386,
-      "turns": 110,
-      "stop": "max_turns",
-      "edits": 1
-    }
+  "t2": {
+   "mean": 0.7608,
+   "usd": 0.1404,
+   "turns": 37,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": 0.727273,
+    "train_003": 1,
+    "train_004": 1,
+    "train_005": 0.076923
+   }
   },
-  "coverage-review-train": {
-    "t1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_002": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_003": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_004": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_005": {
-          "http": 200,
-          "score": 0.307692,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        }
-      },
-      "mean": 0.8615,
-      "usd": 0.2662,
-      "turns": 63,
-      "stop": "completed"
-    },
-    "t2": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_002": {
-          "http": 200,
-          "score": 0.727273,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_003": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_004": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_005": {
-          "http": 200,
-          "score": 0.076923,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        }
-      },
-      "mean": 0.7608,
-      "usd": 0.1404,
-      "turns": 37,
-      "stop": "completed"
-    },
-    "h1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_002": {
-          "http": 200,
-          "score": 0.818182,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_003": {
-          "http": 200,
-          "score": 0.727273,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_004": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_005": {
-          "http": 200,
-          "score": 0.076923,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        }
-      },
-      "mean": 0.7245,
-      "usd": 0.3813,
-      "turns": 85,
-      "stop": "completed",
-      "skillFiles": [
-        "SKILL.md"
-      ]
-    },
-    "g1": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_002": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_003": {
-          "http": 200,
-          "score": 0.727273,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_004": {
-          "http": 200,
-          "score": 0.9,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_005": {
-          "http": 200,
-          "score": 0.307692,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        }
-      },
-      "mean": 0.787,
-      "usd": 0.7686,
-      "turns": 110,
-      "stop": "max_turns",
-      "edits": 1
-    },
-    "g2": {
-      "scores": {
-        "train_001": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_002": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_003": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_004": {
-          "http": 200,
-          "score": 1,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        },
-        "train_005": {
-          "http": 200,
-          "score": 0.307692,
-          "keys": [
-            "correct",
-            "notice",
-            "score"
-          ]
-        }
-      },
-      "mean": 0.8615,
-      "usd": 0.2019,
-      "turns": 53,
-      "stop": "completed",
-      "edits": 1
-    }
+  "g1": {
+   "mean": 0.787,
+   "usd": 0.7686,
+   "turns": 110,
+   "stop": "max_turns",
+   "scores": {
+    "train_001": 1,
+    "train_002": 1,
+    "train_003": 0.727273,
+    "train_004": 0.9,
+    "train_005": 0.307692
+   }
+  },
+  "g2": {
+   "mean": 0.8615,
+   "usd": 0.2019,
+   "turns": 53,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": 1,
+    "train_003": 1,
+    "train_004": 1,
+    "train_005": 0.307692
+   }
+  },
+  "h1": {
+   "mean": 0.7245,
+   "usd": 0.3813,
+   "turns": 85,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": 0.818182,
+    "train_003": 0.727273,
+    "train_004": 1,
+    "train_005": 0.076923
+   }
   }
+ },
+ "financial-control-train": {
+  "t1": {
+   "mean": 1.0,
+   "usd": 0.0871,
+   "turns": 28,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": null,
+    "train_003": null,
+    "train_004": null,
+    "train_005": null
+   }
+  },
+  "t2": {
+   "mean": 0.625,
+   "usd": 0.2438,
+   "turns": 53,
+   "stop": "completed",
+   "scores": {
+    "train_001": 0.625,
+    "train_002": null,
+    "train_003": null,
+    "train_004": null,
+    "train_005": null
+   }
+  },
+  "g1": {
+   "mean": 1.0,
+   "usd": 0.3187,
+   "turns": 62,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": null,
+    "train_003": null,
+    "train_004": null,
+    "train_005": null
+   }
+  },
+  "h1": {
+   "mean": 1.0,
+   "usd": 0.726,
+   "turns": 110,
+   "stop": "max_turns",
+   "scores": {
+    "train_001": 1,
+    "train_002": null,
+    "train_003": null,
+    "train_004": null,
+    "train_005": null
+   }
+  }
+ },
+ "service-ticket-resolution-train": {
+  "t1": {
+   "mean": 0.8065,
+   "usd": 0.4794,
+   "turns": 79,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": 0.666667,
+    "train_003": 0.588235,
+    "train_004": 0.777778,
+    "train_005": 1
+   }
+  },
+  "t2": {
+   "mean": 0.7913,
+   "usd": 0.0955,
+   "turns": 28,
+   "stop": "completed",
+   "scores": {
+    "train_001": 0.8125,
+    "train_002": 1,
+    "train_003": 0.588235,
+    "train_004": 0.555556,
+    "train_005": 1
+   }
+  },
+  "g1": {
+   "mean": 0.8054,
+   "usd": 0.6386,
+   "turns": 110,
+   "stop": "max_turns",
+   "scores": {
+    "train_001": 0.75,
+    "train_002": 0.8,
+    "train_003": 0.588235,
+    "train_004": 0.888889,
+    "train_005": 1
+   }
+  },
+  "g2": {
+   "mean": 0.7637,
+   "usd": 0.4288,
+   "turns": 70,
+   "stop": "completed",
+   "scores": {
+    "train_001": 1,
+    "train_002": 0.733333,
+    "train_003": 0.588235,
+    "train_004": 0.555556,
+    "train_005": 0.941176
+   }
+  },
+  "h1": {
+   "mean": 0.735,
+   "usd": 0.0936,
+   "turns": 35,
+   "stop": "completed",
+   "scores": {
+    "train_001": 0.75,
+    "train_002": 0.666667,
+    "train_003": 0.705882,
+    "train_004": 0.611111,
+    "train_005": 0.941176
+   }
+  }
+ }
 }
